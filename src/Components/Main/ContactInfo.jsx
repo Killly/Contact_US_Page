@@ -4,7 +4,7 @@ import email from "../../assets/email.png";
 import location from "../../assets/location.png";
 
 const ContactInfo = (props) => {
-  let container = `relative flex flex-col ${props.style} mt-px max-md:mt-12`;
+  let container = `relative flex flex-col ${props.style} max-md:mt-12`;
   return (
     <div className={container}>
       <div className="flex w-[164px] max-w-full items-start justify-between gap-5 mt-7">
